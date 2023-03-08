@@ -1,0 +1,97 @@
+$theme-colors: (
+  primary500: #d1ac00,
+  primary400: #dabd33,
+  primary300: #e3cd66,
+  primary200: #edde99,
+  primary100: #f6eecc,
+
+  secondary100: rgb(235, 165, 28, 0.16),
+  secondary500: rgb(235, 165, 28, 1),
+  neutral500: #2c3131,
+  neutral400: #626262,
+  neutral300: #a9a9a9,
+  neutral200: #cacaca,
+  neutral100: #e9e9e9,
+
+  light: #fff,
+  success: #259f46,
+  warning: #e4c65b,
+  danger: #e25c5c,
+  information: #2685ca,
+  white: #fff,
+  fafafa: #fafafa,
+  e5f3e9: #e5f3e9,
+  110a31: #110a31,
+  ede8e9: #ede8e9,
+  110A31: #110a31,
+  110A3108: #110a3108,
+  259F4612: #259f4612,
+  E25C5C12: #e25c5c12,
+  EBA51C: #eba51c,
+  EBA51C08: #eba51c08,
+  BDBDB9: #bdbdb9,
+  BDBDB908: #bdbdb908,
+);
+:root {
+  --primary500: #d1ac00;
+  --primary400: #dabd33;
+  --primary300: #e3cd66;
+  --primary200: #edde99;
+  --primary100: #f6eecc;
+
+  --neutral500: #2c3131;
+  --neutral400: #626262;
+  --neutral300: #a9a9a9;
+  --neutral200: #cacaca;
+  --neutral100: #e9e9e9;
+
+  --success: #259f46;
+  --warning: #e4c65b;
+  --danger: #e25c5c;
+  --information: #2685ca;
+  --white: #fff;
+  --fafafa: #fafafa;
+}
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-medium: 500 !default;
+$font-weight-semibold: 600 !default;
+$font-weight-bold: 700 !default;
+$navbar-padding-x: 0;
+$link-decoration: none;
+$link-hover-decoration: none;
+$grid-gutter-width: 24px;
+$navbar-light-color: var(--neutral300);
+$navbar-light-hover-color: var(--neutral500);
+$navbar-light-active-color: var(--primary500);
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: (
+  2_5: (
+    $spacer * 0.875,
+  ),
+  2_4: (
+    $spacer * 0.75,
+  ),
+  2_3: (
+    $spacer * 0.625,
+  ),
+  0_5: (
+    $spacer * 0.125,
+  ),
+  1_5: (
+    $spacer * 0.375,
+  ),
+  3_5: (
+    $spacer * 1.25,
+  ),
+  4_5: (
+    $spacer * 2.5,
+  ),
+);
+$line-height-base: 1.3 !default;
+$border: 1.5px solid !default;
+
+// $nav-link-color: var(--danger);
+// $nav-link-hover-color: var(--danger);
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
